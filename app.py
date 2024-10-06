@@ -13,7 +13,7 @@ from datetime import time
 st.title('Trip Time Prediction')
 
 model = jb.load('tripml_model.pkl')
-trip_data = pd.read_csv('/media/ankit/New Volume/Programming/Python/jupyter notebook/dataset/Trip Data for ML Model/Trip-Data-for-ML-Model.csv')  
+trip_data = pd.read_csv('Trip-Data-for-ML-Model.csv')  
 
 day_mapping = {"Monday": 0, "Tuesday": 1, "Wednesday": 2, "Thursday": 3,"Friday": 4, "Saturday": 5, "Sunday": 6}
 
